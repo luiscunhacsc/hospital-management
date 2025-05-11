@@ -1,0 +1,90 @@
+JDL Sistema de Gestão Hospitalar
+
+enum Gender {
+  MALE,
+  FEMALE,
+  OTHER
+}
+
+enum AppointmentStatus {
+  SCHEDULED,
+  IN_PROGRESS,
+  COMPLETED,
+  CANCELED
+}
+
+enum SpecialtyType {
+  GENERAL_MEDICINE,
+  CARDIOLOGY,
+  PEDIATRICS,
+  DERMATOLOGY,
+  ORTHOPEDICS,
+  PSYCHIATRY
+}
+
+entity Patient {
+  name String required
+  dateOfBirth LocalDate required
+  gender Gender required
+  phone String
+  email String
+  ssn String
+  address String
+  healthCardNumber String required
+}
+
+entity Doctor {
+  name String required
+  licenseNumber String required
+  specialty SpecialtyType required
+  phone String
+  email String
+}
+
+entity Appointment {
+  dateTime ZonedDateTime required
+  status AppointmentStatus required
+  notes TextBlob
+}
+
+entity Room {
+  name String required
+  floor Integer
+  capacity Integer
+  equipment String
+}
+
+entity Prescription {
+  medications TextBlob required
+  instructions TextBlob
+}
+
+entity Hospitalization {
+  admissionDate ZonedDateTime required
+  dischargeDate ZonedDateTime
+  notes TextBlob
+}
+
+entity Staff {
+  name String required
+  role String required
+  phone String
+  email String
+}
+
+entity Exam {
+  type String required
+  result TextBlob
+  examDate ZonedDateTime required
+}
+
+relationship ManyToOne {
+  Appointment{patient} to Patient
+  Appointment{doctor} to Doctor
+  Appointment{room} to Room
+  Prescription{appointment} to Appointment
+  Hospitalization{patient} to Patient
+  Hospitalization{room} to Room
+  Exam{appointment} to Appointment
+  Exam{doctor} to Doctor
+}
