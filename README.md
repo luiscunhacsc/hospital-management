@@ -1,8 +1,5 @@
 [![Doutoramento Luís António Simões da Cunha Web 2.0 and Higher Education ...](https://tse2.mm.bing.net/th?id=OIP.PuG0HH7exucxPeNkhYN0JAHaE9\&pid=Api)](https://www.pinterest.de/pin/71565081549844203/)
 
-Certainly! Here's an updated `README.md` file for your GitHub repository [luiscunhacsc/hospital-management](https://github.com/luiscunhacsc/hospital-management), incorporating your authorship and providing comprehensive details about the project.
-
----
 
 # Hospital Management System
 
@@ -106,8 +103,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Feel free to customize this README further to match any additional details or specific configurations related to your project.
 
-[1]: https://www.cadenadesuministro.es/noticias/luis-simoes-renueva-flota-con-iveco_1205511_102.html?utm_source=chatgpt.com "Luís Simões renueva flota con Iveco"
-[2]: https://www.atelevisao.com/famosos/luis-simoes-emociona-se-ao-falar-sobre-a-carreira-nunca-te-arrependeste-desta-opcao-de-vida/?utm_source=chatgpt.com "Luís Simões emociona-se ao falar sobre a carreira: “Nunca te ..."
-[3]: https://www.researchgate.net/profile/Luis-Da-Cunha?utm_source=chatgpt.com "Luís Simões da Cunha Professor Instituto Superior Miguel Torga"
-[4]: https://www.jusbrasil.com.br/processos/nome/31802497/luiz-simoes-da-cunha?utm_source=chatgpt.com "Luiz Simoes da Cunha - Processos - Jusbrasil"
-[5]: https://pt.linkedin.com/in/luis-simoes-cunha?utm_source=chatgpt.com "Luís Cunha - Professor - Instituto Superior Miguel Torga | LinkedIn"
